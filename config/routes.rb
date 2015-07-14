@@ -1,13 +1,9 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
-
-  get 'static_pages/about'
-
-  get 'static_pages/projects'
-
-  get 'static_pages/team'
-
-  get 'static_pages/sponsers'
+  root                   'static_pages#home'
+  get    'about'      => 'static_pages#about'
+  get    'projects'   => 'static_pages#projects'
+  get    'team'       => 'static_pages#team'
+  get    'sponsers'   => 'static_pages#sponsers'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
