@@ -133,8 +133,8 @@ footer {
 }
 
 .jumbotron {
-  background-image:url("background.jpeg");
-  //background-size: cover;
+  background-image: asset_url("background.jpeg");
+  background-size: cover;
   margin-bottom: 0px;
   height: 100%;
   width: 100%;
