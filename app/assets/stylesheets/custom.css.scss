@@ -7,6 +7,10 @@
     src: font-url("Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
+    font-family: 'Roboto Thin';
+    src: font-url("Roboto-Thin.ttf") format("truetype");
+}
+@font-face {
     font-family: 'Dosis Light';
     src: font-url("Dosis-Light.ttf") format("truetype");
 }
@@ -22,6 +26,10 @@
     font-family: 'JosefinSans Light';
     src: font-url("JosefinSans-Light.ttf") format("truetype");
 }
+@font-face {
+    font-family: 'Merriweather Regular';
+    src: font-url("Merriweather-Regular.ttf") format("truetype");
+}
 
 /* mixins, variables, etc. */
 
@@ -34,10 +42,6 @@ $gray-medium-light: #eaeaea;
 }
 
 /* universal */
-
-body {
-  padding-top: 60px;
-}
 
 section {
   overflow: auto;
@@ -53,34 +57,6 @@ textarea {
     margin-bottom: 10px;
   }
 }
-
-/* typography */
-
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
-}
-
-h1 {
-  font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-weight: normal;
-  color: $gray-light;
-}
-
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
-}
-
 
 /* header */
 
@@ -137,8 +113,31 @@ footer {
   background-size: cover;
   margin-bottom: 0px;
   height: 100%;
-  width: 100%;
-  margin-left: 0px;
+  //height: 800px;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  h1 {
+    font-size: 8vw;  
+    font-family: "Merriweather Regular";
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 3%;
+  }
+  p {
+    font-size: 4.5vw;
+    font-family: "Roboto Thin";
+    color: #fff;
+  }
+  h2 {
+  	font-size: 3vw;
+  	font-family: "Roboto Regular";
+  	padding-bottom: 3%;
+  }
+  hr {
+  	border-bottom-color: white;
+  	width: 65%;
+  }
 }
 
 .debug_dump {
