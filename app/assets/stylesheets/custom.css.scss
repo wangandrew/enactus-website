@@ -4,23 +4,23 @@
 /* fonts */
 @font-face {
     font-family: 'Roboto Regular';
-    src: url(/assets/Roboto-Regular.ttf) format("truetype");
+    src: font-url("Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: 'Dosis Light';
-    src: url(/assets/Dosis-Light.ttf) format("truetype");
+    src: font-url("Dosis-Light.ttf") format("truetype");
 }
 @font-face {
     font-family: 'Quicksand Regular';
-    src: url(/assets/Quicksand-Regular.ttf) format("truetype");
+    src: font-url("Quicksand-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: 'Quicksand Light';
-    src: url(/assets/Quicksand-Light.ttf) format("truetype");
+    src: font-url("Quicksand-Light.ttf") format("truetype");
 }
 @font-face {
     font-family: 'JosefinSans Light';
-    src: url(/assets/JosefinSans-Light.ttf) format("truetype");
+    src: font-url("JosefinSans-Light.ttf") format("truetype");
 }
 
 /* mixins, variables, etc. */
