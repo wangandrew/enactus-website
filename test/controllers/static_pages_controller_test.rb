@@ -21,8 +21,8 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get sponsers" do
-    get :sponsers
+  test "should get sponsors" do
+    get :sponsors
     assert_response :success
   end
 

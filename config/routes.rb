@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get    'about'      => 'static_pages#about'
   get    'projects'   => 'static_pages#projects'
   get    'team'       => 'static_pages#team'
-  get    'sponsers'   => 'static_pages#sponsers'
+  get    'sponsors'   => 'static_pages#sponsors'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

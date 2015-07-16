@@ -11,6 +11,6 @@ class StaticPagesController < ApplicationController
   def team
   end
 
-  def sponsers
+  def sponsors
   end
 end
