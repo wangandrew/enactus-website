@@ -7,7 +7,7 @@
     src: font-url("Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'Roboto Thin';
+    font-family: 'Jumbotron 2';
     src: font-url("Roboto-Thin.ttf") format("truetype");
 }
 @font-face {
@@ -19,7 +19,7 @@
     src: font-url("Dosis-Light.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'Quicksand Regular';
+    font-family: 'Font 1';
     src: font-url("Quicksand-Regular.ttf") format("truetype");
 }
 @font-face {
@@ -27,11 +27,11 @@
     src: font-url("Quicksand-Light.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'JosefinSans Light';
+    font-family: 'Font 3';
     src: font-url("JosefinSans-Light.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'Merriweather Regular';
+    font-family: 'Jumbotron 1';
     src: font-url("Merriweather-Regular.ttf") format("truetype");
 }
 
@@ -68,7 +68,7 @@ textarea {
 #logo {
   float: left;
   margin-left: 10px;
-  font-family: "JosefinSans Light";
+  font-family: "Font 3";
   margin-right: 10px;
   font-size: 1.9em;
   color: white;
@@ -83,7 +83,7 @@ textarea {
 }
 
 #headerlist {
-  font-family: "Quicksand Regular";
+  font-family: "Font 1";
   text-transform: uppercase;
 }
 
@@ -92,7 +92,7 @@ textarea {
 footer {
   text-align: center;
   background-color: #171717;
-  font-family: "Quicksand Regular";
+  font-family: "Font 1";
   text-transform: uppercase;
   font-size: 90%;
   color: white;
@@ -107,7 +107,6 @@ footer {
 }
 
 .jumbotron {
-  background-image: asset_url("background.jpeg");
   background-size: cover;
   margin-bottom: 0px;
   height: 100%;
@@ -116,40 +115,47 @@ footer {
   text-align: center;
   h1 {
     font-size: 8vw;  
-    font-family: "Merriweather Regular";
-    font-style: italic;
+    font-family: "Jumbotron 1";
     font-weight: bold;
-    padding-top: 3%;
+    font-style: italic;
+    padding-top: 4.5%;
   }
   p {
-    font-size: 4.5vw;
-    font-family: "Roboto Thin";
+    font-size: 4.4vw;
+    font-family: "Jumbotron 2";
     color: #fff;
+    padding-bottom: 6%;
   }
-  h2 {
-  	font-size: 300%;
-  	font-family: "Roboto Regular";
-  	padding-bottom: 3%;
-  }
-  hr {
-  	border-bottom-color: white;
-  	width: 65%;
+}
+
+#jumboone {
+  background-image: asset_url("background.jpeg");
+}
+
+#jumbotwo {
+  background-image: asset_url("momentum.jpg");
+  padding-top: 25%;
+  p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 }
 
 .about {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   h1 {
     font-size: 400%; 
-    font-family: "Roboto Thin";
+    font-family: "Font 3";
     letter-spacing: 2px;
   }
   p {
     margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
     font-size: 150%;
-    font-family: "JosefinSans Light";
+    font-family: "Font 3";
     letter-spacing: 1px;
   }
 }
@@ -157,7 +163,7 @@ footer {
 .recruit {
   letter-spacing: 2px;
   font-family: "Dosis Light";
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   text-align: center;
   font-size: 4vw;
   h2 {
