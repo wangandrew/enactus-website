@@ -113,26 +113,28 @@ footer {
   margin-top: 50px;
   color: white;
   text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
   h1 {
     font-size: 8vw;  
     font-family: "Jumbotron 1";
     font-weight: bold;
     font-style: italic;
-    padding-top: 4.5%;
+    //padding-top: 4.5%;
   }
   p {
     font-size: 4.4vw;
     font-family: "Jumbotron 2";
     color: #fff;
-    padding-bottom: 6%;
+    //padding-bottom: 6%;
   }
 }
 
-#jumboone {
+#hometop {
   background-image: asset_url("background.jpeg");
 }
 
-#jumbotwo {
+#homebottom {
   background-image: asset_url("momentum.jpg");
   padding-top: 25%;
   p {
@@ -174,6 +176,11 @@ footer {
   a:link {
     text-decoration:none;
   }
+}
+
+#abouttop {
+  background-image: asset_url("momentum_action.jpeg");
+  padding-bottom: 15.25%;
 }
 
 .debug_dump {
