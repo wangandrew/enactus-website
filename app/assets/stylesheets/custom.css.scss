@@ -30,6 +30,12 @@
     font-family: 'Font 3';
     src: font-url("JosefinSans-Light.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: 'Font 3 Bold';
+    src: font-url("JosefinSans-Bold.ttf") format("truetype");
+}
+
 @font-face {
     font-family: 'Jumbotron 1';
     src: font-url("Merriweather-Regular.ttf") format("truetype");
@@ -37,7 +43,8 @@
 
 /* mixins, variables, etc. */
 
-$gray-medium-light: #eaeaea;
+$gray-medium: #909090;
+$dk-navbar: #111111;
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -60,6 +67,18 @@ textarea {
   h1 {
     margin-bottom: 10px;
   }
+}
+
+/* home page jumbotron */
+html,body {
+  height:100%;
+  width: 100%;
+}
+.special ,.special .jumbotron {
+  height:100%; 
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /* header */
@@ -108,61 +127,54 @@ footer {
 
 .jumbotron {
   background-size: cover;
+  background-image: asset_url("background.jpeg");
   margin-bottom: 0px;
-  height: 100%;
-  margin-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
   color: white;
   text-align: center;
-  padding-top: 8%;
-  padding-bottom: 8%;
   h1 {
     font-size: 8vw;  
     font-family: "Jumbotron 1";
     font-weight: bold;
     font-style: italic;
-    //padding-top: 4.5%;
+    padding-top: 7.5%;
   }
   p {
     font-size: 4.4vw;
     font-family: "Jumbotron 2";
     color: #fff;
-    //padding-bottom: 6%;
   }
 }
 
-#hometop {
-  background-image: asset_url("background.jpeg");
-}
-
-#homebottom {
-  background-image: asset_url("momentum.jpg");
-  padding-top: 25%;
-  p {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
+.container .jumbotron {
+  border-radius: 0px;
 }
 
 .about {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center;
-  h1 {
-    font-size: 400%; 
-    font-family: "Font 3";
-    letter-spacing: 2px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  text-align: left;
+  h5 {
+    color: $gray-medium;
+    padding-top: 30px;
+  }
+  h2 {
+    font-family: "Font 3 Bold";
   }
   p {
-    margin-top: 10px;
-    margin-left: 25%;
+    font-family: "Font 3";
     margin-right: 25%;
     font-size: 150%;
-    font-family: "Font 3";
     letter-spacing: 1px;
   }
 }
 
-.recruit {
+.intro {
+  padding-top: 50px;
+}
+
+/*.recruit {
   letter-spacing: 2px;
   font-family: "Dosis Light";
   padding-bottom: 20px;
@@ -176,12 +188,8 @@ footer {
   a:link {
     text-decoration:none;
   }
-}
+}*/
 
-#abouttop {
-  background-image: asset_url("momentum_action.jpeg");
-  padding-bottom: 15.25%;
-}
 
 .debug_dump {
   clear: both;

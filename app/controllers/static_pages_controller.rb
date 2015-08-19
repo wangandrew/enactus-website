@@ -2,9 +2,6 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def about
-  end
-
   def projects
   end
 
@@ -12,5 +9,11 @@ class StaticPagesController < ApplicationController
   end
 
   def sponsors
+  end
+
+  def gallery
+  end
+
+  def join
   end
 end

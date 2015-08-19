@@ -1,16 +1,13 @@
-$(function() {
-  console.log("here");
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
+// $(document).ready(function(){       
+//    var scroll_start = 0;
+//    var startchange = $('.about');
+//    var offset = startchange.offset();
+//    $(document).scroll(function() { 
+//       scroll_start = $(this).scrollTop();
+//       if(scroll_start > offset.top) {
+//           $('.navbar').css('background-color', '#EEEEEE');
+//        } else {
+//           $('.navbar').css('background-color', "#111111");
+//        }
+//    });
+// });
