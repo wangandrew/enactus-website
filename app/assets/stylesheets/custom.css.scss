@@ -45,6 +45,7 @@
 
 $gray-medium: #909090;
 $dk-navbar: #111111;
+$gr-navbar: #2FBC5C;
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -82,6 +83,10 @@ html,body {
 }
 
 /* header */
+
+/*.navbar {
+  background-color: $gr-navbar;
+}*/
 
 
 #logo {
@@ -127,7 +132,6 @@ footer {
 
 .jumbotron {
   background-size: cover;
-  background-image: asset_url("background.jpeg");
   margin-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -150,6 +154,19 @@ footer {
 .container .jumbotron {
   border-radius: 0px;
 }
+
+#hometop {
+  background-image: asset_url("background.jpeg");
+}
+
+#team {
+  background-image: asset_url("team.jpeg");
+  p {
+    font-family: "Font 3 Bold";
+    padding-top: 7%;
+  }
+}
+
 
 .about {
   padding-top: 40px;
