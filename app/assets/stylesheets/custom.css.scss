@@ -44,6 +44,8 @@
 /* mixins, variables, etc. */
 
 $gray-medium: #909090;
+$gray-dk: #585858;
+$grey-md-dk: #686868;
 $dk-navbar: #111111;
 $gr-navbar: #2FBC5C;
 
@@ -208,9 +210,19 @@ footer {
 }*/
 
 .team {
-  p {
-    padding-right: 50px;
+  h4 {
+    color: $gray-dk;
   }
+  h5 {
+    color: $gray-medium;
+    font-family: "Roboto Regular";
+  }
+  p {
+    color: $gray-medium;
+    padding-right: 50px;
+    font-family: "Roboto Light";
+  }
+  padding-bottom: 7%;
 }
 
 
