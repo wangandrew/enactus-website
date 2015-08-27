@@ -165,7 +165,35 @@ footer {
   background-image: asset_url("team.jpeg");
   p {
     font-family: "Font 3 Bold";
-    padding-top: 7%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
+
+#projects {
+  background-image: asset_url("momentum_action.jpeg");
+  p {
+    font-family: "Font 3 Bold";
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
+
+#sponsors {
+  background-image: asset_url("sponsor_background.jpg");
+  p {
+    font-family: "Font 3 Bold";
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
+
+#join {
+  background-image: asset_url("join.JPG");
+  p {
+    font-family: "Font 3 Bold";
+    padding-top: 100px;
+    padding-bottom: 80px;
   }
 }
 
@@ -209,7 +237,7 @@ footer {
   }
 }*/
 
-.team {
+.team, .projects {
   h4 {
     color: $gray-dk;
   }
@@ -224,6 +252,12 @@ footer {
   }
   padding-bottom: 7%;
 }
+
+/*.projects {
+  img {
+    max-
+  }
+}*/
 
 
 .debug_dump {
